@@ -1,31 +1,46 @@
 import React from "../../assets/React.svg"
+import Typescript from "../../assets/TypeScript.svg"
+import JavaScript from "../../assets/JavaScript.svg"
+import TailwindCSS from "../../assets/Tailwind CSS.svg"
+import CSS from "../../assets/CSS3.svg"
+import HTML from "../../assets/HTML5.svg"
+import SQLServer from "../../assets/Microsoft SQL Server.svg"
+import CSharp from "../../assets/CSharp.svg"
+import MongoDB from "../../assets/MongoDB.svg"
+import Python from "../../assets/Python.svg"
+import NodeJS from "../../assets/Node.js.svg"
+import ExpressJS from "../../assets/Express.svg"
+import AngularJS from "../../assets/AngularJS.svg"
+import dotNet from "../../assets/NET.svg"
+import dotNetCore from "../../assets/NET core.svg"
+import Jest from "../../assets/Jest.svg"
+
 interface SkillsObject {
     skillName: string;
     icon: string;
 }
-const languages: Array<SkillsObject> = [
+const frontend: Array<SkillsObject> = [
     {skillName: "React", icon: React},
-    {skillName: 'TypeScript', icon: `src/assets/TypeScript.svg`},
-    {skillName: 'JavaScript', icon: `src/assets/Javascript.svg`},
-    {skillName: 'Tailwind CSS', icon: `src/assets/Tailwind Css.svg`},
-    {skillName: 'CSS', icon: `src/assets/CSS3.svg`},
-    {skillName: 'HTML', icon: `src/assets/HTML5.svg`},
-    {skillName: 'SQL Server', icon: `src/assets/Microsoft SQL Server.svg`},
-    {skillName: 'C#', icon: `src/assets/CSharp.svg`},    
-    {skillName: 'MongoDB', icon: `src/assets/MongoDB.svg`},
-    {skillName: 'Python', icon: `src/assets/Python.svg`},
-    // {skillName: '', icon:},
+    {skillName: 'TypeScript', icon: Typescript},
+    {skillName: 'JavaScript', icon: JavaScript},
+    {skillName: 'CSS', icon: CSS},
+    {skillName: 'Tailwind CSS', icon: TailwindCSS},
+    {skillName: 'HTML', icon: HTML},
+    {skillName: 'AngularJS', icon: AngularJS},
+    {skillName: 'Jest', icon: Jest},
     // {skillName: '', icon:},
 ]
 
-// const frameworks: Array<SkillsObject> =[
-//     {skillName: "React", icon: React},
-//     {skillName: "NodeJS", icon: "here"},
-//     {skillName: "ExpressJS", icon: "here"},
-//     {skillName: 'AngularJS', icon: `src/assets/AngularJS.svg`},
-
-
-// ]
+const backend: Array<SkillsObject> =[
+    {skillName: "NodeJS", icon: NodeJS},
+    {skillName: "ExpressJS", icon: ExpressJS},
+    {skillName: 'SQL Server', icon: SQLServer},
+    {skillName: 'C#', icon: CSharp},    
+    {skillName: 'MongoDB', icon: MongoDB},
+    {skillName: 'Python', icon: Python},
+    {skillName: '.NET', icon: dotNet},
+    {skillName: '.Net Core', icon: dotNetCore}
+]
 
 // const libraries: Array<SkillsObject> = [
 
@@ -43,20 +58,39 @@ return (
             >
                 Skills
             </h2>
-            <div className="flex flex-wrap gap-2 text-center">
-                {languages.map((obj, key) => (
-                    <span
-                        key={key}
-                        flex-wrap
-                        className="text-purple-800 bg-purple-400 py-1 px-3 rounded-full text-sm 
-                            hover:shadow-[0_2px_7px_rgba(59,130,2246,02) transition]
-                            inline-flex gap-2 items-center
-                        "
-                    >
-                        <text>{obj.skillName}</text>
-                        <img src={obj.icon} className="p-0.5 size-7"></img>
-                    </span>
-                ))}
+            <div className="grid md:grid-cols-2 gap-6"> 
+
+                <div className="flex flex-wrap gap-2 text-center">
+                    {frontend.map((obj, key) => (
+                        <span
+                            key={key}
+                            flex-wrap
+                            className="text-purple-800 bg-purple-400 py-1 px-3 rounded-full text-lg 
+                                hover:shadow-[0_2px_7px_rgba(59,130,2246,02) transition]
+                                inline-flex gap-2 items-center
+                            "
+                        >
+                            <text>{obj.skillName}</text>
+                            <img src={obj.icon} className="p-0.5 size-7"></img>
+                        </span>
+                    ))}
+                </div>
+                <div className="flex flex-wrap gap-2 text-center">
+                    {backend.map((obj, key) => (
+                        <span
+                            key={key}
+                            flex-wrap
+                            className="text-purple-800 bg-purple-400 py-1 px-3 rounded-full text-lg 
+                                hover:shadow-[0_2px_7px_rgba(59,130,2246,02) transition]
+                                inline-flex gap-2 items-center
+                            "
+                        >
+                            <text>{obj.skillName}</text>
+                            <img src={obj.icon} className="p-0.5 size-7"></img>
+                        </span>
+                    ))}
+                </div>
+
             </div>
         </div>        
     </section>

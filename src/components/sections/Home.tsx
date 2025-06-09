@@ -18,19 +18,19 @@ return (
             <div className="flex justify-center space-x-4">
                 <a 
                     href='#projects'
-                    className="bg-purple-500 text-shadow-indigo-50 py-3 px-6 rounded font-medium transition relative overflow-hidden 
+                    className="bg-cyan-700 border border-purple-700/50 text-purple-100 text-shadow-indigo-50 py-3 px-6 rounded text-xl transition relative overflow-hidden 
                     hover:-translate-y-0.5 
                     hover:shadow-[0_0_15px_rgba(58, 130, 246, 0.4)]
-                    hover:bg-purple-800"
+                    hover:bg-cyan-900/100"
                 >
                     View Projects
                 </a>
                 <a 
                     href='#contact'
-                    className="border border-purple-700/50 text-purple-300 py-3 px-6 rounded font-medium transition-all duration-200
+                    className="border border-purple-700/50 text-purple-300 py-3 px-6 rounded font-bold text-xl transition-all duration-200
                     hover:-translate-y-0.5
                     hover:shadow-[0_0_15px_rgba(58, 130, 246, 0.2)]
-                    hover:bg-purple-900/100"
+                    hover:bg-gray-900/100"
                 >
                     Contact Me!
                 </a>

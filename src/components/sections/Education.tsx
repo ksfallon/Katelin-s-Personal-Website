@@ -1,4 +1,6 @@
 import globe from '../../assets/globe-2-svgrepo-com.svg'
+import cpl from '../../assets/coding-programming-language-svgrepo-com.svg'
+import art from '../../assets/art-svgrepo-com.svg'
 export const Education = () => {
     return (
         <section
@@ -13,16 +15,22 @@ export const Education = () => {
                 </h2>
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-2xl font-bold mb-4 text-center text-blue-300"> University of North Carolina at Chapel Hill </h3>
-                    <h2 className="text-xl font-bold mb-4"> Certificate, FullStack Coding Boot Camp</h2>
-                    <text>React, HTML, CSS, Bootstrap, Javascript, Jquery, MongoDB, SQL, Node, Express, MongoDB, GraphQL</text>
+                    <span flex-wrap className=" inline-flex gap-2">
+                        <img src={cpl} className="size-7 "></img>
+                        <h2 className="text-xl font-bold mb-4"> Certificate, FullStack Coding Boot Camp</h2>
+                    </span>
+                    <h2>React, HTML, CSS, Bootstrap, Javascript, Jquery, MongoDB, SQL, Node, Express, MongoDB, GraphQL</h2>
                 </div>
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-2xl font-bold mb-4 text-center text-yellow-400"> Pratt Institute </h3>
-                    <h2 className="text-xl font-bold mb-4"> Masters in Science, Art and Design History</h2>
-                    <text>
+                    <span flex-wrap className=" inline-flex gap-2">
+                        <img src={art} className="size-7 "></img>
+                        <h2 className="text-xl font-bold mb-4"> Masters in Science, Art and Design History</h2>
+                    </span>
+                    <h2>
                         Studied Art and Design History with a focus in Art Conservation Science. Thesis focused on the History and paint 
                         pigments found in the wall paintings of the House of the Neptune and Ampitrite Mosaic in Herculanuem, Italy.
-                    </text>
+                    </h2>
                 </div>
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-2xl font-bold mb-4 text-center text-blue-300"> University of North Carolina at Chapel Hill </h3>

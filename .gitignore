@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#emailJS information
+SERVICE_ID = "service_de21nsv"
+TEMPLATE_ID = "template_556lwzb"
+PUBLIC_KEY = "ZfUOSap-QC_3I4CY8"
