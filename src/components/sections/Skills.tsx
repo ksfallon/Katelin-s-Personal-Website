@@ -1,23 +1,34 @@
 import React from "../../assets/React.svg"
 interface SkillsObject {
     skillName: string;
-    svgIcon: string;
+    icon: string;
 }
-const fullstackSkills: Array<SkillsObject> = [
-    {skillName: "React", svgIcon: React},
-    {skillName: 'TypeScript', svgIcon: `src/assets/TypeScript.svg`},
-    {skillName: 'JavaScript', svgIcon: `src/assets/Javascript.svg`},
-    {skillName: 'AngularJS', svgIcon: `src/assets/AngularJS.svg`},
-    {skillName: 'Tailwind CSS', svgIcon: `src/assets/Tailwind Css.svg`},
-    {skillName: 'CSS', svgIcon: `src/assets/CSS3.svg`},
-    {skillName: 'HTML', svgIcon: `src/assets/HTML5.svg`},
-    {skillName: 'SQL Server', svgIcon: `src/assets/Microsoft SQL Server.svg`},
-    {skillName: 'C#', svgIcon: `src/assets/CSharp.svg`},    
-    {skillName: 'MongoDB', svgIcon: `src/assets/MongoDB.svg`},
-    {skillName: 'Python', svgIcon: `src/assets/Python.svg`},
-    // {skillName: '', svgIcon:},
-    // {skillName: '', svgIcon:},
+const languages: Array<SkillsObject> = [
+    {skillName: 'TypeScript', icon: `src/assets/TypeScript.svg`},
+    {skillName: 'JavaScript', icon: `src/assets/Javascript.svg`},
+    {skillName: 'Tailwind CSS', icon: `src/assets/Tailwind Css.svg`},
+    {skillName: 'CSS', icon: `src/assets/CSS3.svg`},
+    {skillName: 'HTML', icon: `src/assets/HTML5.svg`},
+    {skillName: 'SQL Server', icon: `src/assets/Microsoft SQL Server.svg`},
+    {skillName: 'C#', icon: `src/assets/CSharp.svg`},    
+    {skillName: 'MongoDB', icon: `src/assets/MongoDB.svg`},
+    {skillName: 'Python', icon: `src/assets/Python.svg`},
+    // {skillName: '', icon:},
+    // {skillName: '', icon:},
 ]
+
+// const frameworks: Array<SkillsObject> =[
+//     {skillName: "React", icon: React},
+//     {skillName: "NodeJS", icon: "here"},
+//     {skillName: "ExpressJS", icon: "here"},
+//     {skillName: 'AngularJS', icon: `src/assets/AngularJS.svg`},
+
+
+// ]
+
+// const libraries: Array<SkillsObject> = [
+
+// ]
 
 export const Skills = () => {
 return (
@@ -32,7 +43,7 @@ return (
                 Skills
             </h2>
             <div className="flex flex-wrap gap-2 text-center">
-                {fullstackSkills.map((obj, key) => (
+                {languages.map((obj, key) => (
                     <span
                         key={key}
                         flex-wrap
@@ -42,7 +53,7 @@ return (
                         "
                     >
                         <text>{obj.skillName}</text>
-                        <img src={obj.svgIcon} className="p-0.5 size-7"></img>
+                        <img src={obj.icon} className="p-0.5 size-7"></img>
                     </span>
                 ))}
             </div>

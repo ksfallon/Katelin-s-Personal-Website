@@ -2,7 +2,7 @@ import globe from '../../assets/globe-2-svgrepo-com.svg'
 export const Education = () => {
     return (
         <section
-            id='experience'
+            id='education'
             className="min-h-screen flex items-center justify-center py-20"
         >
             <div className="max-w-3xl mx-auto px-4">
