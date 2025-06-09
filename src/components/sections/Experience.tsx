@@ -1,34 +1,27 @@
-import { MyTechSkills } from "./skills component/MyTechSkills";
-
-export const About 
+export const Experience 
 = () => {
     return (
         <section
-            id='about'
+            id='experience'
             className="min-h-screen flex items-center justify-center py-20"
         >
             <div className="max-w-3xl mx-auto px-4">
                 <h2 
                     className="text-5xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-purple-300 bg-clip-text text-transparent text-center"
                 >
-                    About Me
+                    EXPERIENCE
                 </h2>
-                <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1transition-all">
+                {/* <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1transition-all">
                     <p className="text-gray-300 mb-6">
                         Experiance in IPaas, building scalable web applications.. and so much more!
                     </p>
-                </div>
-                <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                    <h3 className="text-3xl font-bold mb-4 text-center">Skills</h3>
-                        <MyTechSkills/>
-                </div>
-
+                </div> */}
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                    <h3 className="text-3xl font-bold mb-4 text-center"> Work Experience </h3>
+                    {/* <h3 className="text-3xl font-bold mb-4 text-center"> Work Experience </h3> */}
                     <div className="space-y-4 text-gray-300">
                         <div className="p-6">
-                            <h4 className="text-lg bg-cyan-900/30 rounded-full text-center"> Software Developer II at Lytho, Inc. (May 2024 - April 2025)</h4>
-                            <ul className="list-disc list-inside text-gray-300 text-sm space-y-2">
+                            <h4 className="text-xl p-2 bg-cyan-900/30 rounded-full text-center"> Software Developer II at Lytho, Inc. (May 2024 - April 2025)</h4>
+                            <ul className="list-disc list-inside py-1 text-gray-300 text-sm space-y-2">
                                 <li>
                                     Implemented integrations between Lytho’s Workflow app and Slack, Microsoft Teams and Jira. 
                                     Served as the point person for the Microsoft Teams integration, which included building a 
@@ -66,8 +59,8 @@ export const About
                         </div>
 
                         <div className="p-6">
-                            <h4 className="text-lg bg-cyan-900/30 rounded-full text-center"> Software Developer I at Lytho, Inc. (Nov 2021 - May 2024)</h4>
-                            <ul className="list-disc list-inside text-gray-300 text-sm space-y-2">
+                            <h4 className="text-xl p-2 bg-cyan-900/30 rounded-full text-center"> Software Developer I at Lytho, Inc. (Nov 2021 - May 2024)</h4>
+                            <ul className="list-disc list-inside py-1 text-gray-300 text-sm space-y-2">
                                 <li>
                                     Co-led a major epic that enables users to create and share Shared Custom Views for tables, lists, 
                                     Gantt charts, etc. across multiple work item types in a project management Workflow app. This 
@@ -99,8 +92,8 @@ export const About
                         </div>
 
                         <div className="p-6">
-                            <h4 className="text-lg bg-cyan-900/30 rounded-full text-center"> Front-End Developer at Tactiq (formerly DSD Partners) (Aug 2021 - Nov 2021)</h4>
-                            <ul className="list-disc list-inside text-gray-300 text-sm space-y-2">
+                            <h4 className="text-xl p-2 bg-cyan-900/30 rounded-full text-center"> Front-End Developer at Tactiq (Aug 2021 - Nov 2021)</h4>
+                            <ul className="list-disc list-inside py-1 text-gray-300 text-sm space-y-2">
                                 <li>
                                     Conducted GitHub pull request reviews and performed QA on team member tickets to help ensure 
                                     sprint goals were met.
@@ -117,22 +110,6 @@ export const About
                         </div>                                                        
                     </div>
                 </div>
-
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                    <h3 className="text-xl font-bold mb-4"> Education </h3>
-                    <ul className="list-disc list-inside text-gray-300 text-sm space-y-2">
-                        <li>
-                            <strong> Certificate - Full-Stack Coding Boot Camp</strong> at UNC Chapel Hill
-                        </li>
-                        <li>
-                            <strong> M.S. in Art and Design History</strong> at Pratt Institute
-                        </li>
-                        <li>
-                            <strong> B.A. in Geography</strong> at UNC Chapel Hill
-                        </li>
-                    </ul>
-                </div>
-
             </div>
         </section>
     );

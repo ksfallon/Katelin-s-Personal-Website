@@ -13,7 +13,7 @@ return (
             </h1>
             <p className=" text-grey-400 text-2xl mb-8 maw-x-lg mx-auto">
                 Hi! I'm a Full-stack Developer who enjoys coding. I need to put a better
-                story about myself here!
+                story experience myself here!
             </p>
             <div className="flex justify-center space-x-4">
                 <a 

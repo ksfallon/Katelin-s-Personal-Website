@@ -32,8 +32,14 @@ export const NavBar: FC<NavBarProps> = ({menuOpen, setMenuOpen}) => {
                 <a href="#home" className="text-grey-300 hove:text-white transition-colors">
                     {""}Home
                 </a>
-                <a href="#about" className="text-grey-300 hove:text-white transition-colors">
-                    {""}About
+                <a href="#experience" className="text-grey-300 hove:text-white transition-colors">
+                    {""}Experience
+                </a>
+                <a href="#skills" className="text-grey-300 hove:text-white transition-colors">
+                    {""}Skills
+                </a>
+                <a href="#education" className="text-grey-300 hove:text-white transition-colors">
+                    {""}Education
                 </a>
                 <a href="#projects" className="text-grey-300 hove:text-white transition-colors">
                     {""}Projects

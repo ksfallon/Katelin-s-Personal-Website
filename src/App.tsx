@@ -5,7 +5,9 @@ import { LoadingScreen } from './components/LoadingScreen'
 import { NavBar } from './components/NavBar'
 import { MobileMenu } from './components/MobileMenu'
 import { Home } from './components/sections/Home'
-import { About } from './components/sections/About'
+import { Experience } from './components/sections/Experience'
+import { Education } from './components/sections/Education'
+import { Skills } from './components/sections/Skills'
 import { Projects } from './components/sections/Projects'
 import { Contact } from './components/sections/Contact'
 
@@ -22,7 +24,9 @@ const [menuOpen, setMenuOpen] = useState(false)
           <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <Home/>
-          <About/>
+          <Experience/>
+          <Skills/>
+          <Education/>
           <Projects/>
           <Contact/>
         </div>
