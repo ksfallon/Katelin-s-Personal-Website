@@ -4,6 +4,7 @@ interface SkillsObject {
     icon: string;
 }
 const languages: Array<SkillsObject> = [
+    {skillName: "React", icon: React},
     {skillName: 'TypeScript', icon: `src/assets/TypeScript.svg`},
     {skillName: 'JavaScript', icon: `src/assets/Javascript.svg`},
     {skillName: 'Tailwind CSS', icon: `src/assets/Tailwind Css.svg`},
