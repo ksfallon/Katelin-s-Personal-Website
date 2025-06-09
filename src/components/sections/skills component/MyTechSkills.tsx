@@ -1,9 +1,10 @@
+import React from "../../../assets/React.png"
 interface SkillsObject {
     skillName: string;
     svgIcon: string;
 }
 const fullstackSkills: Array<SkillsObject> = [
-    {skillName: "React", svgIcon: `src/assets/React.png`},
+    {skillName: "React", svgIcon: React},
     {skillName: 'TypeScript', svgIcon: `src/assets/TypeScript.svg`},
     {skillName: 'JavaScript', svgIcon: `src/assets/Javascript.svg`},
     {skillName: 'AngularJS', svgIcon: `src/assets/AngularJS.svg`},
