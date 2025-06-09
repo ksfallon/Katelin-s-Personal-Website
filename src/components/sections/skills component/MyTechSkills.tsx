@@ -1,15 +1,9 @@
-// import type { IconType } from "react-icons";
-// import { SiTypescript, SiJavascript, SiPython } from "react-icons/si";
-// import { GrReactjs } from "react-icons/gr";
-// import { RiAngularjsFill, RiTailwindCssLine } from "react-icons/ri";
-// import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
-
 interface SkillsObject {
     skillName: string;
     svgIcon: string;
 }
 const fullstackSkills: Array<SkillsObject> = [
-    {skillName: "React", svgIcon: `src/assets/React.svg`},
+    {skillName: "React", svgIcon: `src/assets/React.png`},
     {skillName: 'TypeScript', svgIcon: `src/assets/TypeScript.svg`},
     {skillName: 'JavaScript', svgIcon: `src/assets/Javascript.svg`},
     {skillName: 'AngularJS', svgIcon: `src/assets/AngularJS.svg`},
