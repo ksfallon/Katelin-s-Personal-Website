@@ -6,22 +6,19 @@ export const Experience
             className="min-h-screen flex items-center justify-center py-20"
         >
             <div className="max-w-3xl mx-auto px-4">
-                <h2 
-                    className="text-5xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-purple-300 bg-clip-text text-transparent text-center"
-                >
-                    EXPERIENCE
-                </h2>
-                {/* <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1transition-all">
-                    <p className="text-gray-300 mb-6">
-                        Experiance in IPaas, building scalable web applications.. and so much more!
-                    </p>
-                </div> */}
+            <h1 
+                className="text-5xl md:text-7xl font-bold mb-6 p-6 
+                bg-gradient-to-r to-purple-500 from-white 
+                bg-clip-text text-transparent leading-right text-center"
+            >
+                EXPERIENCE
+            </h1>
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                     {/* <h3 className="text-3xl font-bold mb-4 text-center"> Work Experience </h3> */}
                     <div className="space-y-4 text-gray-300">
                         <div className="p-6">
                             <h4 className="text-xl p-2 bg-cyan-900/30 rounded-full text-center"> Software Developer II at Lytho, Inc. (May 2024 - April 2025)</h4>
-                            <ul className="list-disc list-inside py-1 text-gray-300 text-sm space-y-2">
+                            <ul className="list-disc list-inside py-1 text-gray-300 space-y-2">
                                 <li>
                                     Implemented integrations between Lytho’s Workflow app and Slack, Microsoft Teams and Jira. 
                                     Served as the point person for the Microsoft Teams integration, which included building a 
@@ -60,7 +57,7 @@ export const Experience
 
                         <div className="p-6">
                             <h4 className="text-xl p-2 bg-cyan-900/30 rounded-full text-center"> Software Developer I at Lytho, Inc. (Nov 2021 - May 2024)</h4>
-                            <ul className="list-disc list-inside py-1 text-gray-300 text-sm space-y-2">
+                            <ul className="list-disc list-inside py-1 text-gray-300 space-y-2">
                                 <li>
                                     Co-led a major epic that enables users to create and share Shared Custom Views for tables, lists, 
                                     Gantt charts, etc. across multiple work item types in a project management Workflow app. This 
@@ -93,7 +90,7 @@ export const Experience
 
                         <div className="p-6">
                             <h4 className="text-xl p-2 bg-cyan-900/30 rounded-full text-center"> Front-End Developer at Tactiq (Aug 2021 - Nov 2021)</h4>
-                            <ul className="list-disc list-inside py-1 text-gray-300 text-sm space-y-2">
+                            <ul className="list-disc list-inside py-1 text-gray-300 space-y-2">
                                 <li>
                                     Conducted GitHub pull request reviews and performed QA on team member tickets to help ensure 
                                     sprint goals were met.

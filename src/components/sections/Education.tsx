@@ -8,11 +8,13 @@ export const Education = () => {
             className="min-h-screen flex items-center justify-center py-20"
         >
             <div className="max-w-3xl mx-auto px-4">
-                <h2 
-                    className="text-5xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-purple-300 bg-clip-text text-transparent text-center"
-                >
-                    EDUCATION
-                </h2>
+            <h1 
+                className="text-5xl md:text-7xl font-bold mb-6 p-6 
+                bg-gradient-to-r to-purple-500 from-white 
+                bg-clip-text text-transparent leading-right text-center"
+            >
+                EDUCATION
+            </h1>
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-2xl font-bold mb-4 text-center text-blue-300"> University of North Carolina at Chapel Hill </h3>
                     <span flex-wrap className=" inline-flex gap-2">

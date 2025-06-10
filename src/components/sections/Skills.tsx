@@ -50,14 +50,18 @@ export const Skills = () => {
 return (
     <section
         id='skills'
-        className="min-h-screen flex items-center justify-center py-20"
+        // className="min-h-screen flex items-center justify-center py-15"
+        className="min-h-screen flex items-center justify-center relative"
+
     >
         <div className="px-4 w-150"> 
-            <h2 
-                className="text-5xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-purple-300 bg-clip-text text-transparent text-center"
+            <h1 
+                className="text-5xl md:text-7xl font-bold mb-6 p-6 
+                bg-gradient-to-r to-purple-500 from-white 
+                bg-clip-text text-transparent leading-right text-center"
             >
-                Skills
-            </h2>
+                SKILLS
+            </h1>
             <div className="grid md:grid-cols-2 gap-6"> 
 
                 <div className="flex flex-wrap gap-2 text-center">

@@ -48,11 +48,13 @@ export const Contact = () => {
         >
             {/* <RevealOnScroll> */}
             <div className="px-4 w-150"> 
-                <h2 
-                    className="text-5xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-purple-300 bg-clip-text text-transparent text-center"
-                >
-                    Contact Me!
-                </h2>
+            <h1 
+                className="text-5xl md:text-7xl font-bold mb-6 p-6 
+                bg-gradient-to-r to-purple-500 from-white 
+                bg-clip-text text-transparent leading-right text-center"
+            >
+                CONTACT ME
+            </h1>
                 <form className="space-y-6" onSubmit={handleSubmit}>
                     <div className="grid grif-cols-1 md:grid-cols-2 gap-6">                        
                         <div>
