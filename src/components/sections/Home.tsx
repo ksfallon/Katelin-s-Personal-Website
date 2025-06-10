@@ -7,9 +7,9 @@ return (
     >
         <div className="text-center z-10 p-6">
             <h1 
-                className="text-5xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-500 to-white bg-clip-text text-transparent leading-right"
+                className="text-4xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-500 to-white bg-clip-text text-transparent leading-right"
             >
-                Katelin Fallon's Portfolio
+                Katelin's Portfolio
             </h1>
             <div className="p-6 rounded-xl">
                 <p className=" text-grey-400 text-2xl px-5 mb-8 maw-x-lg mx-auto">
