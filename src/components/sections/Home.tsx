@@ -12,10 +12,10 @@ return (
                 Katelin Fallon's Portfolio
             </h1>
             <div className="p-6 rounded-xl">
-                <p className=" text-grey-400 text-2xl px-25 mb-8 maw-x-lg mx-auto">
-                Hi, I’m Katelin Fallon, a full-stack software engineer based in Durham, NC. 
-                I specialize in building scalable, user-centered web applications with a strong 
-                focus on frontend experiences and backend reliability.
+                <p className=" text-grey-400 text-2xl px-5 mb-8 maw-x-lg mx-auto">
+                    Hi, I’m Katelin Fallon, a full-stack software engineer based in Durham, NC. 
+                    I specialize in building scalable, user-centered web applications with a strong 
+                    focus on frontend experiences and backend reliability.
                 </p>
             </div>
             <div className="flex justify-center space-x-4">
