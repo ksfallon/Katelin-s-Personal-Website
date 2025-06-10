@@ -11,10 +11,13 @@ return (
             >
                 Katelin Fallon's Portfolio
             </h1>
-            <p className=" text-grey-400 text-2xl mb-8 maw-x-lg mx-auto">
-                Hi! I'm a Full-stack Developer who enjoys coding. I need to put a better
-                story experience myself here!
-            </p>
+            <div className="p-6 rounded-xl">
+                <p className=" text-grey-400 text-2xl px-25 mb-8 maw-x-lg mx-auto">
+                Hi, I’m Katelin Fallon, a full-stack software engineer based in Durham, NC. 
+                I specialize in building scalable, user-centered web applications with a strong 
+                focus on frontend experiences and backend reliability.
+                </p>
+            </div>
             <div className="flex justify-center space-x-4">
                 <a 
                     href='#projects'
