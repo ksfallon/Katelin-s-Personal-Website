@@ -10,6 +10,7 @@ import { Education } from './components/sections/Education'
 import { Skills } from './components/sections/Skills'
 import { Projects } from './components/sections/Projects'
 import { Contact } from './components/sections/Contact'
+import { BottomNavBar } from './components/sections/BottomNavBar'
 
 function App() {
 const [isLoaded, setIsLoaded] = useState(false) 
@@ -29,6 +30,7 @@ const [menuOpen, setMenuOpen] = useState(false)
           <Education/>
           <Projects/>
           <Contact/>
+          <BottomNavBar/>
         </div>
     </>
   )

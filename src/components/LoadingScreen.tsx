@@ -8,7 +8,7 @@ interface LoadingScreenProps {
 export const LoadingScreen: FC<LoadingScreenProps> = ({onComplete}) => {
 
     const [text, setText] = useState("")
-    const fullText: string = "<Katelin Fallon/>";
+    const fullText: string = "Loading Katelin's Portfolio";
 
     useEffect(() => {
         let index = 0;
